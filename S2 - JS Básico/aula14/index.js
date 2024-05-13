@@ -8,16 +8,4 @@ Case-sensitive, letra maiuscula e minuscula fazem diferença, e.g. nomeCliente e
 Não podemos redaclarar variáveis com let, e.g let nomeCliente = 'Marcelo' e depois redeclarar como let nomeCliente = 'João', mas pode mudar o valor: nomeCliente = 'João'.
 NÃO UTILIZE VAR, UTILIZE LET.
 */
-/*let nome = 'João'; // String.
-console.log(nome, 'nasce em 1984.');
-console.log('No ano 2000,', nome, 'conheceu Maria.');
-console.log(nome, 'casou-se com Maria em 2012.');
-console.log('Maria teve um filho com', nome, 'em 2015.');
-console.log('O filho de', nome, 'se chama Santiago.');
-*/
 
-let nome; // Declarou a variável.
-nome = 'João'; // Inicializando a variável.
-console.log(nome);
-nome = 'Marcelo'
-console.log(nome);
