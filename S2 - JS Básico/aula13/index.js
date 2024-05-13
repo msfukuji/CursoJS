@@ -19,3 +19,4 @@ nome = 'João'; // Inicializando a variável.
 console.log(nome);
 nome = 'Marcelo'
 console.log(nome);
+
