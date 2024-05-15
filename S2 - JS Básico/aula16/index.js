@@ -6,5 +6,5 @@ const sobrenome = 'Fukuji';
 const idade = 40;
 const peso = 89;
 const altura = 1.78;
-const imc = peso/(altura*altura);
-console.log (nome, sobrenome, 'tem', idade, 'anos de idade, seu peso é de', peso, 'kg, tem de altura', altura, 'm e seu IMC é de', imc,'.');
+const imc = peso / (altura * altura);
+console.log(nome, sobrenome, 'tem', idade, 'anos de idade, seu peso é de', peso, 'kg, tem de altura', altura, 'm e seu IMC é de', imc, '.');
