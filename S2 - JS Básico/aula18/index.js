@@ -1,4 +1,5 @@
 /* 
+Diferença entre var e let:
 var - o valor da variável pode ser redeclarada;
 let - não deixa o valor da variável ser redeclarada;
 Não criar variável sem const e sem let: nome = 'Luiz';
