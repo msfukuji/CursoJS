@@ -28,9 +28,19 @@ console.log(num2 % num1); // o resto da divisão é 0
 console.log(num1 + num2 * num4); // 5 + 10 * 10 = 105. para fazer a soma antes precisa usar () conforme matemática.
 console.log((num1 + num2) * num4); // (5 + 10) * 10 = 150
 
-// ++ o valor da variável mais o valor definido
+// ++ incremento - pré e pós
 let contador = 1;
 contador++; // 2
 contador++; // 3
 ++contador; // 4 / o ++ pode ser antes tb, 
-console.log(contador);
+console.log(contador++);
+
+// -- decremento - pré e pós
+console.log(--contador);
+
+// boa prática é fazer o incremento e depois chamar o console.log
+// Para o javascript entender de que se trata de um número, podemos usar
+// parseInt (inteiro), parseFloat (decimais) ou o mais atual Number.
+const num7 = 10;
+const num8 = Number('5.35');
+console.log(num7 + num8); // 15.35
